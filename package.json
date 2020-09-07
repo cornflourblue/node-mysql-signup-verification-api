@@ -1,0 +1,33 @@
+{
+    "name": "node-mysql-signup-verification-api",
+    "version": "1.0.0",
+    "description": "NodeJS + MySQL API for Email Sign Up with Verification, Authentication & Forgot Password",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/node-mysql-signup-verification-api.git"
+    },
+    "scripts": {
+        "start": "node ./server.js",
+        "start:dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "express-jwt": "^6.0.0",
+        "express": "^4.17.1",
+        "joi": "^17.2.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.1.0",
+        "nodemailer": "^6.4.11",
+        "rootpath": "^0.1.2",
+        "sequelize": "^6.3.4",
+        "swagger-ui-express": "^4.1.4",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
